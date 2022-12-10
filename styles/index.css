@@ -24,19 +24,16 @@ Top section
     background-image: url('../images/top-banner.png');
     background-repeat: no-repeat;
     display:flex;
-    border:2px solid brown;
     flex-wrap: wrap;
 }
 
 .developer-description{
     width:60%;
     padding:20px;
-    border:1px solid greenyellow;
     box-sizing: border-box;
 }
 .developer-img {
     width:40%;
-    border:1px solid rgb(47, 61, 255);
     box-sizing: border-box;
 }
 .developer-img img {
