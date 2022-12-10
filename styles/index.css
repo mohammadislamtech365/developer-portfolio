@@ -25,6 +25,7 @@ Top section
     background-repeat: no-repeat;
     display:flex;
     flex-wrap: wrap;
+    margin-bottom:80px;
 }
 
 .developer-description{
@@ -38,4 +39,16 @@ Top section
 }
 .developer-img img {
     width:100%;
+}
+
+.middle {
+    display:flex;
+    flex-wrap: wrap;
+    margin-bottom:80px;
+}
+
+#dream-big {
+    background-image: url('../images/dream-bg.png');
+    background-repeat: no-repeat;
+    background-position: top right;
 }
