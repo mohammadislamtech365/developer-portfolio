@@ -12,6 +12,9 @@ Top section
 .txt-orange {
     color:orangered;
 }
+.text-justify {
+    text-align: justify;
+}
 .btn {
     background-color: orangered;
     border:none;
@@ -41,6 +44,11 @@ Top section
     width:100%;
 }
 
+/* 
+-------
+Middle section
+------- 
+*/
 .middle {
     display:flex;
     flex-wrap: wrap;
@@ -51,4 +59,33 @@ Top section
     background-image: url('../images/dream-bg.png');
     background-repeat: no-repeat;
     background-position: top right;
+}
+
+.developer-card-container {
+    display:flex;
+    flex-wrap: wrap;
+    padding:40px 60px;
+    background-image: url('../images/exp-bg.png');
+    background-repeat: no-repeat;
+    background-position:left center;
+    margin-bottom:100px;
+}
+
+.developer-card {
+    width:45%;
+    box-sizing: border-box;
+    padding:60px;
+    box-shadow: 5px 5px 15px rgb(141, 137, 137);
+}
+#pro-developer {
+    border-left:10px solid orangered;
+    margin-right:25px;
+    padding:60px;
+}
+
+#baby-developer {
+    border-left:10px solid rgb(47, 22, 192);
+}
+footer {
+    text-align: center;
 }
